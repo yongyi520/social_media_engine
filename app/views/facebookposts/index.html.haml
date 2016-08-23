@@ -1,0 +1,44 @@
+:javascript
+  window.fbAsyncInit = function() {
+      FB.init({
+          appId      : '1667117996948209',
+          xfbml      : true,
+          version    : 'v2.7'
+      });
+  };
+
+  (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+
+%nav.header_facebook.clearfix
+  .wrapper
+    .nav_left
+      = link_to facebookposts_path do
+        %p.welcome_message
+          Hi Yongyi
+    .nav_mid
+      = image_tag ("social_facebook_box_blue.png"), class: "logo"
+    .nav_right
+      %ul
+        %li
+          = link_to "Home", root_path
+        %li
+          = link_to "Facebook Home", facebookposts_path
+        %li
+          = link_to "Log Out", sessions_destroy_path
+.content_facebook
+  .wrapper
+    .content_container
+      .content_box.content_input.clearfix
+        = render "facebookposts/form"
+      - @feeds.each do |feed|
+        - if feed["link"].present? && feed["message"].present? && feed["privacy"]["value"]=="EVERYONE"
+          .fb-post{"data-href" => feed["link"]}
+
+

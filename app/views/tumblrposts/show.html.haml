@@ -1,0 +1,13 @@
+%p#notice= notice
+%p
+  %strong User:
+  = @tumblrpost.user_id
+%p
+  %strong Title:
+  = @tumblrpost.title
+%p
+  %strong Body:
+  = @tumblrpost.body
+= link_to 'Edit', edit_tumblrpost_path(@tumblrpost)
+|
+= link_to 'Back', tumblrposts_path

@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong User:
+  = @facebookpost.user_id
+%p
+  %strong Body:
+  = @facebookpost.body
+= link_to 'Edit', edit_facebookpost_path(@facebookpost)
+|
+= link_to 'Back', facebookposts_path

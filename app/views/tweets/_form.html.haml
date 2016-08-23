@@ -1,0 +1,14 @@
+= form_for(@tweet) do |f|
+  - if @tweet.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@tweet.errors.count, "error")
+        prohibited this tweet from being saved:
+      %ul
+        - @tweet.errors.full_messages.each do |message|
+          %li= message
+  .content_input.clearfix
+    = image_tag(current_user.profile_image)
+    = f.text_area :status, placeholder: "What's happening?"
+  .content_submit.clearfix
+    = f.submit class: "button"

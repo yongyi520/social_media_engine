@@ -1,0 +1,27 @@
+%nav.header_home.clearfix
+  .wrapper
+    .logo
+      %h2 Social Media Engine
+.content_home
+  .wrapper
+    .title
+      %h3 Select a Social Site to Log In
+    %hr/
+    .row_home.clearfix
+      - if current_user.present? && current_user.provider == "facebook"
+        = link_to facebookposts_path do
+          .social_icon
+            = image_tag("social_facebook_box_blue.png")
+      - else
+        = link_to "auth/facebook" do
+          .social_icon
+            = image_tag("social_facebook_box_blue.png")
+
+      - if current_user.present? && current_user.provider == "twitter"
+        = link_to tweets_path do
+          .social_icon
+            = image_tag("twitter-256.jpg")
+      - else
+        = link_to "auth/twitter" do
+          .social_icon
+            = image_tag("twitter-256.jpg")

@@ -1,0 +1,1 @@
+json.partial! "tumblrposts/tumblrpost", tumblrpost: @tumblrpost

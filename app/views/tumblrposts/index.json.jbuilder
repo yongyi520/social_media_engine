@@ -1,0 +1,1 @@
+json.array! @tumblrposts, partial: 'tumblrposts/tumblrpost', as: :tumblrpost

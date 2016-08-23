@@ -1,0 +1,15 @@
+= form_for(@facebookpost) do |f|
+  - if @facebookpost.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@facebookpost.errors.count, "error")
+        prohibited this facebookpost from being saved:
+      %ul
+        - @facebookpost.errors.full_messages.each do |message|
+          %li= message
+  = f.text_field :user_id, value: "1", class: "hide"
+  .input.clearfix
+    = image_tag (current_user.profile_image)
+    = f.text_area :body, placeholder: "What's on your mind?"
+  .buttons_group.clearfix
+    = f.submit "Post", class: "button_facebook"

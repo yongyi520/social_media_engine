@@ -1,0 +1,32 @@
+%nav.header_twitter.clearfix
+  .wrapper
+    .nav_left
+      = link_to tweets_path do
+        %p.welcome_message
+          Hi Yongyi
+    .nav_mid
+      = image_tag ("twitter-256.jpg"), class: "logo"
+    .nav_right
+      %ul
+        %li
+          = link_to "Home", root_path
+        %li
+          = link_to "Twitter Home", tweets_path
+        %li
+          = link_to "Log Out", sessions_destroy_path
+.content_twitter
+  .wrapper
+    .content_container
+      = render "tweets/form"
+
+      - @tweets_timeline.each do |tweet|
+        .content_tweet.clearfix
+          = image_tag (current_user.profile_image)
+          .content
+            %span.tweet_name
+              %h4= current_user.name
+              %h5
+                @
+                = current_user.nickname
+            %span.tweet_message
+              %p= tweet.text

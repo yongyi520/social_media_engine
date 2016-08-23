@@ -1,0 +1,20 @@
+%p#notice= notice
+%h1 Listing Tumblrposts
+%table
+  %thead
+    %tr
+      %th User
+      %th Title
+      %th Body
+      %th{:colspan => "3"}
+  %tbody
+    - @tumblrposts.each do |tumblrpost|
+      %tr
+        %td= tumblrpost.user_id
+        %td= tumblrpost.title
+        %td= tumblrpost.body
+        %td= link_to 'Show', tumblrpost
+        %td= link_to 'Edit', edit_tumblrpost_path(tumblrpost)
+        %td= link_to 'Destroy', tumblrpost, method: :delete, data: { confirm: 'Are you sure?' }
+%br/
+= link_to 'New Tumblrpost', new_tumblrpost_path
