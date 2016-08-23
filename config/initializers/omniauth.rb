@@ -11,7 +11,7 @@ end
 # end
 
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :facebook, Rails.application.secrets.facebook_api_id, Rails.application.secrets.facebook_api_secret,
+  provider :facebook, ENV["facebook_api_id"], ENV["facebook_api_secret"],
            scope: 'publish_actions, user_posts'
 end
 
