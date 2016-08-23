@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04c0eb50-dd6d-401e-b02c-99a0077cb99f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/facebookposts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/facebookposts/index.html.haml" />
     </list>
     <ignored path="social_media_engine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,12 +49,12 @@
       <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/facebookposts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="344">
+              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
               <folding>
-                <marker date="1471953393579" expanded="true" signature="46:179" ph="{...}" />
-                <marker date="1471953393579" expanded="true" signature="62:173" ph="{&quot;appId&quot;: '1667117996948209'...}" />
-                <marker date="1471953393579" expanded="true" signature="203:441" ph="{...}" />
+                <marker date="1471953419767" expanded="true" signature="46:179" ph="{...}" />
+                <marker date="1471953419767" expanded="true" signature="62:173" ph="{&quot;appId&quot;: '1667117996948209'...}" />
+                <marker date="1471953419767" expanded="true" signature="203:441" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -577,16 +576,16 @@
       <workItem from="1471843130278" duration="279000" />
       <workItem from="1471843429787" duration="9962000" />
       <workItem from="1471925819495" duration="8521000" />
-      <workItem from="1471948470418" duration="4923000" />
+      <workItem from="1471948470418" duration="5033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52216000" />
+    <option name="totallyTimeSpent" value="52326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28560606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -595,7 +594,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31305638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32047477" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32047477" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -956,12 +955,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/facebookposts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="344">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding>
-            <marker date="1471953393579" expanded="true" signature="46:179" ph="{...}" />
-            <marker date="1471953393579" expanded="true" signature="62:173" ph="{&quot;appId&quot;: '1667117996948209'...}" />
-            <marker date="1471953393579" expanded="true" signature="203:441" ph="{...}" />
+            <marker date="1471953419767" expanded="true" signature="46:179" ph="{...}" />
+            <marker date="1471953419767" expanded="true" signature="62:173" ph="{&quot;appId&quot;: '1667117996948209'...}" />
+            <marker date="1471953419767" expanded="true" signature="203:441" ph="{...}" />
           </folding>
         </state>
       </provider>
