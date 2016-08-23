@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'figaro'
+
 # convert erb to haml
 gem 'erb2haml', '~> 0.1.5'
 gem 'haml', '~> 4.0', '>= 4.0.7'

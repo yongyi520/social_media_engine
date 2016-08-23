@@ -11,17 +11,17 @@
       - if current_user.present? && current_user.provider == "facebook"
         = link_to facebookposts_path do
           .social_icon
-            = image_tag("social_facebook_box_blue.png")
+            = image_tag("https://s3.amazonaws.com/webimagexu/social_media_engine/social_facebook_box_blue.png")
       - else
         = link_to "auth/facebook" do
           .social_icon
-            = image_tag("social_facebook_box_blue.png")
+            = image_tag("https://s3.amazonaws.com/webimagexu/social_media_engine/social_facebook_box_blue.png")
 
       - if current_user.present? && current_user.provider == "twitter"
         = link_to tweets_path do
           .social_icon
-            = image_tag("twitter-256.jpg")
+            = image_tag("https://s3.amazonaws.com/webimagexu/social_media_engine/twitter-256.jpg")
       - else
         = link_to "auth/twitter" do
           .social_icon
-            = image_tag("twitter-256.jpg")
+            = image_tag("https://s3.amazonaws.com/webimagexu/social_media_engine/twitter-256.jpg")
