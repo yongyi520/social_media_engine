@@ -42,10 +42,11 @@
           - if feed["link"].present?
             .fb-post{"data-href" => feed["link"]}
           - else
-            .status_profile.clearfix
-              = image_tag(current_user.profile_image)
-              %h3= current_user.name
-              %p some time ago
-            .status_message
-              %p= feed["message"]
+            .content_box
+              .status_profile.clearfix
+                = image_tag(current_user.profile_image)
+                %h3= current_user.name
+                %p some time ago
+              .status_message.clearfix
+                %p= feed["message"]
 
